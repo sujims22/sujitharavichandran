@@ -47,15 +47,19 @@
 						<article id="About">
 							<h2 class="major">About</h2>
 							<div style="display: flex; align-items: top;">
-								<div>
-									<p>
+								<div style="flex: 1;">
+									<p style="text-align: justify;">
 										During the challenging times of the COVID-19 pandemic, I discovered my deep passion for data science. The uncertainty and data-driven decision-making that defined this period sparked my curiosity. As the world grappled with complex problems, I found myself drawn to the potential of data to drive solutions. With a background in programming and a computer science minor, I bring a solid foundation in computational skills to my data science journey. This experience led me to shift my career path from Materials Science to Data Science.
-										<br><br>
-										I'm currently pursuing my Master's in Data Science at the University of Houston and have gained practical experience as a Visiting Graduate student at Rice University. My goal is to leverage the power of data for meaningful solutions. Looking ahead, I'm excited to take my passion to the next level. I'm actively seeking Data Science internships for Spring 2024 and open to full-time roles in positions such as Data Analyst, Machine Learning Engineer, and Data Scientist.
 									</p>
 								</div>
-								<img src="images/4D0EEDD4-20A8-4D70-A5A6-D03916EDF309_1_102_a.jpeg" alt="" style="width: 150px; height: 150px; border-radius: 50%; margin-left: 20px;" />
-							</div>					
+								<div>
+									<img src="images/4D0EEDD4-20A8-4D70-A5A6-D03916EDF309_1_102_a.jpeg" alt="" style="width: 150px; height: 150px; border-radius: 50%; margin-left: 20px;" />
+								</div>
+							</div>
+							<p style="text-align: justify;">
+								I'm currently pursuing my Master's in Data Science at the University of Houston and have gained practical experience as a Visiting Graduate student at Rice University. My goal is to leverage the power of data for meaningful solutions. Looking ahead, I'm excited to take my passion to the next level. I'm actively seeking Data Science internships for Spring 2024 and open to full-time roles in positions such as Data Analyst, Machine Learning Engineer, and Data Scientist.
+							</p>
+				
 							<h3>Education</h3>
 							<ul style="list-style: none; padding: 0; display: flex; flex-wrap: wrap;">
 								<li style="flex: 1; margin: 10px; padding: 10px; border: 1px solid #ccc; text-align: center;">
@@ -86,7 +90,7 @@
 							</ul>
 							<h3>Hobbies and other interests</h3>
 							<ul>
-							<li>Binge-watching Anime</li>
+							<li>Watching Anime</li>
 							<li>Diving into Thrilling Crime Novels</li>
 							<li>Cycling</li>
 							</ul>
@@ -100,7 +104,7 @@
 								<h3>Data Processing, Analytics, and Data Visualization Specialist</h3>
 								<div style="display: flex; align-items: center;">
 									<img src="images/1567737543928.jpeg" alt="MATA INVENTIVE Logo" style="width: 150px; height: 150px; margin-right: 10px;" />
-									<img src="images/firmbee-com-jrh5lAq-mIs-unsplash.jpg" alt="Second Image" style="width: 550px; height: 150px;" />
+									<img src="images/firmbee-com-jrh5lAq-mIs-unsplash.jpg" alt="Second Image" style="width: 550px; height: 150px; margin-left: 10px;" />
 								</div>
 								<p>MATA INVENTIVE (Aug 2023 - Present)</p>
 								<ul>
@@ -157,22 +161,45 @@
 										<li>Achieved an outstanding accuracy of 99.27 percent using the Decision Tree classifier. <a href="https://github.com/sujims22/Network-anamoly-detection" target="_blank">Please click here to know more about my project.</a></li>
 							</article>
 						
-						
+						    <style>
+								/* Define the class for the skills grid */
+								.skills-grid {
+									display: grid;
+									grid-template-columns: repeat(2, 1fr);
+									gap: 20px;
+								}
+							
+								/* Define the style for skill categories */
+								.skill-category {
+									background-color: transparent; /* Background color set to transparent */
+									padding: 20px;
+									border-radius: 10px;
+								}
+							
+								/* Define the style for the text within the skill categories */
+								.skill-category ul li {
+									color: #fff; /* Text color set to white */
+								}
+							</style>
+							
+							
 
                         <!-- Skills -->
 							<article id="Skills">
 								<h2 class="major">Skills</h2>
 								<span class="image main"><img src="images/data-science.webp" alt="" /></span>
-								<ol>
-									<li><strong>Languages:</strong>
+								<div class="skills-grid">
+									<div class="skill-category">
+										<h3>Programming Languages</h3>
 										<ul>
 											<li>C/C++</li>
 											<li>Python</li>
 											<li>SQL</li>
 											<li>PHP</li>
 										</ul>
-									</li>
-									<li><strong>Frameworks:</strong>
+									</div>
+									<div class="skill-category">
+										<h3>Frameworks</h3>
 										<ul>
 											<li>NumPy</li>
 											<li>Pandas</li>
@@ -181,40 +208,58 @@
 											<li>PyTorch</li>
 											<li>PySpark</li>
 										</ul>
-									</li>
-									<li><strong>Tools:</strong>
+									</div>
+									<div class="skill-category">
+										<h3>Software</h3>
 										<ul>
 											<li>Git</li>
 											<li>Oracle SQL Developer</li>
 											<li>Tableau</li>
 											<li>Power Bi</li>
 										</ul>
-									</li>
-									<li><strong>Cloud Platforms:</strong>
+									</div>
+									<div class="skill-category">
+										<h3>Cloud Platforms</h3>
 										<ul>
 											<li>AWS</li>
 											<li>Google Cloud Platform</li>
 											<li>IBM Cloud</li>
 											<li>Azure</li>
 										</ul>
-									</li>
-								</ol>
-							</article>
+									</div>
+									<div class="skill-category">
+										<h3>Platforms</h3>
+										<ul>
+											<li>Windows</li>
+											<li>Linux</li>
+										</ul>
+									</div>
+    </div>
+</article>
+
 							
 						
                         <!-- Publications -->
 						<article id="Publications">
 							<h2 class="major">Publications</h2>
 							<ol class="publications-list">
-								<li>
-									Sujitha Ravichandran and G. Deepak,<strong>"ExtractMetOnto: A Strategic domain Ontology modeling approach in the field of Extractive Metallurgy," </strong> 2022 International Conference on Computer Communication and Informatics (ICCCI), Coimbatore, India, 2022, pp. 01-05, DOI: <a href="https://ieeexplore.ieee.org/document/9740850" target="_blank">10.1109/ICCCI54379.2022.9740850</a>
-								</li>
-								<li>
-									Onkar Susladkar, Gayatri Deshmukh, Subhrajit Nag, Ananya Mantravadi, Dhruv Makwana, Sujitha Ravichandran, Sai Chandra Teja R, Gajanan H Chavhan, C Krishna Mohan, Sparsh Mittal, <strong>ClarifyNet: A high-pass and low-pass filtering based CNN for single image dehazing,</strong> Journal of Systems Architecture, Volume 132, 2022, 102736, ISSN 1383-7621, <a href="https://doi.org/10.1016/j.sysarc.2022.102736" target="_blank">https://doi.org/10.1016/j.sysarc.2022.102736</a>
-								</li>
-								<li>
-									Abhi Jaiswal, Sharin Shahana K C, Sujitha Ravichandran, Adarsh K, Bharat Bhat, Biresh Kumar Joardar, Sumit K. Mandal, <strong>HALO: Communication-aware Heterogeneous 2.5D System for Energy-efficient LLM Execution at Edge,</strong> IEEE Transactions on Circuits and Systems, Sep 2023 (under review)
-								</li>
+								<ol>
+									<li>
+										<p style="text-align: justify;">
+											Abhi Jaiswal, Sharin Shahana K C, Sujitha Ravichandran, Adarsh K, Bharat Bhat, Biresh Kumar Joardar, Sumit K. Mandal, <strong>HALO: Communication-aware Heterogeneous 2.5D System for Energy-efficient LLM Execution at Edge,</strong> IEEE Transactions on Circuits and Systems, Sep 2023 (under review)
+										</p>
+									</li>
+									<li>
+										<p style="text-align: justify;">
+											Onkar Susladkar, Gayatri Deshmukh, Subhrajit Nag, Ananya Mantravadi, Dhruv Makwana, Sujitha Ravichandran, Sai Chandra Teja R, Gajanan H Chavhan, C Krishna Mohan, Sparsh Mittal, <strong>ClarifyNet: A high-pass and low-pass filtering based CNN for single image dehazing,</strong> Journal of Systems Architecture, Elsevier, November 2022. <a href="https://doi.org/10.1016/j.sysarc.2022.102736" target="_blank">https://doi.org/10.1016/j.sysarc.2022.102736</a>
+										</p>
+									</li>
+									<li>
+										<p style="text-align: justify;">
+											Sujitha Ravichandran and G. Deepak, <strong>"ExtractMetOnto: A Strategic domain Ontology modeling approach in the field of Extractive Metallurgy,"</strong> 2022 International Conference on Computer Communication and Informatics (ICCCI), Coimbatore, India, 2022, pp. 01-05, DOI: <a href="https://ieeexplore.ieee.org/document/9740850" target="_blank">10.1109/ICCCI54379.2022.9740850</a>
+										</p>
+									</li>
+								</ol>								
 							</ol>
 						</article>
 						
