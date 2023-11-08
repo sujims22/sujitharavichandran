@@ -1,32 +1,50 @@
-# sujitharavichandran.github.io
 
-Dimension by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+This is the repository for my personal website, which is built using the "Dimension" template by HTML5 UP. You can visit the live website : (https://sujims22.github.io/sujitharavichandran/).
 
+## About
 
-This is Dimension, a fun little one-pager with modal-ized (is that a word?) "pages"
-and a cool depth effect (click on a menu item to see what I mean). Simple, fully
-responsive, and kitted out with all the usual pre-styled elements you'd expect.
-Hope you dig it :)
+My personal website serves as a portfolio and a platform to share my projects and experiences. The site is built using the Dimension template, providing a sleek one-page design with modal-style "pages" and a cool depth effect.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## Features
 
-(* = not included)
+- **Fully Responsive:** The website is designed to be fully responsive, ensuring a seamless experience across various devices and screen sizes.
+- **Portfolio:** Showcase your projects and work with ease.
+- **Contact:** Allow visitors to contact you through your provided contact information.
+- **Credits:** The site gives proper credit to the resources used, including images and icons.
 
-AJ
-aj@lkn.io | @ajlkn
+## Getting Started
 
+To get a local copy of this website and customize it for your own use, follow these steps:
 
-Credits:
+1. Clone the repository:
 
-	Demo Images:
-		Unsplash (unsplash.com)
+   ```bash
+   git clone https://github.com/sujitharavichandran/sujitharavichandran.github.io.git
+   ```
 
-	Icons:
-		Font Awesome (fontawesome.io)
+2. Navigate to the project directory:
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+   ```bash
+   cd sujitharavichandran.github.io
+   ```
+
+3. Customize the content:
+
+   - Replace the sample text and images with your own projects and information.
+   - Modify the website as needed.
+
+4. Host your website:
+
+   You can host your website on GitHub Pages by following these [instructions](https://pages.github.com/). Make sure to set the repository name to `<your-username>.github.io`.
+
+## Credits
+
+- **Demo Images:** [Unsplash](https://unsplash.com)
+- **Icons:** [Font Awesome](https://fontawesome.io)
+- **Other:** [jQuery](https://jquery.com)
+
+## Contact
+
+If you have any questions or need to get in touch, please feel free to contact me at sravich8@cougarnet.uh.edu.
+
+Happy coding!
