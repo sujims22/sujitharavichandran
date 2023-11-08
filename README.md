@@ -19,13 +19,13 @@ To get a local copy of this website and customize it for your own use, follow th
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/sujitharavichandran/sujitharavichandran.github.io.git
+   git clone https://github.com/sujitharavichandran/sujitharavichandran.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd sujitharavichandran.github.io
+   cd sujitharavichandran
    ```
 
 3. Customize the content:
