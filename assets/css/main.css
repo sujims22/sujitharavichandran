@@ -600,12 +600,19 @@ input, select, textarea {
 
 /* Icon */
 
+	
 	.icon {
-		text-decoration: none;
-		border-bottom: none;
-		position: relative;
-	}
-
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 54px;
+		height: 54px;
+		background: transparent;
+		border-radius: 50%;
+		transition: 0.5s;
+		border: 1px solid white;
+		overflow: hidden;
+	  }
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
@@ -617,8 +624,10 @@ input, select, textarea {
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
+			color: #fff;
+			font-size: 24px;
 		}
-
+		
 		.icon > .label {
 			display: none;
 		}
@@ -1158,7 +1167,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/b1.jpeg");
+			background-image: url("../../images/background.png");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
