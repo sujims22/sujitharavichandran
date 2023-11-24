@@ -1,9 +1,9 @@
 
-This is the repository for my personal website, which is built using the "Dimension" template by HTML5 UP. You can visit the live website : (https://sujims22.github.io/sujitharavichandran/).
+This is the repository for my personal website, which is built using the "Read Only" template by HTML5 UP. You can visit the live website : (https://sujims22.github.io/sujitharavichandran/).
 
 ## About
 
-My personal website serves as a portfolio and a platform to share my projects and experiences. The site is built using the Dimension template, providing a sleek one-page design with modal-style "pages" and a cool depth effect.
+My personal website serves as a portfolio and a platform to share my projects and experiences. The site is built using the Read Only template, providing a sleek one-page design with modal-style "pages" and a cool depth effect.
 
 ## Features
 
