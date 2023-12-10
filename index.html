@@ -95,8 +95,8 @@
 						<li><a href="#twotwo">Experience</a></li>
 						<li><a href="#three">Projects</a></li>
 						<li><a href="#four">Education</a></li>
-						<li><a href="#five">Publications</a></li>
-						<li><a href="#six">Contact</a></li>
+						<li><a href="#publications-container">Publications</a></li>
+						<li><a href="#contact-container">Contact</a></li>
 
 					</ul>
 				</nav>
@@ -325,7 +325,7 @@
 
 									.grid-item img {
 										width: 100%;
-										height: 200px; /* Fixed height */
+										height: 250px; /* Fixed height */
 										object-fit: cover; /* This will cover the area without distorting the image */
 										border-bottom: 1px solid #e1e1e1;
 										transition: background-color 0.3s ease; /* Smooth transition for background color */
@@ -336,7 +336,7 @@
 										padding: 15px;
 										font-size: 18px;
 										font-weight: bold;
-										background-color: #4acaa8;
+										background-color: red;
 										border-bottom: 1px solid #e1e1e1;
 									}
 
@@ -345,7 +345,7 @@
 									}
 
 									.grid-item img:hover {
-										background-color: #4acaa8; /* Change to your preferred highlight color */
+										background-color: red; /* Change to your preferred highlight color */
 										opacity: 0.7; /* Lower opacity on hover */
 									}
 
@@ -394,7 +394,17 @@
 											<div class="content">
 												<p>This project aims to perform facial landmark analysis and anomaly detection using facial landmark detection techniques. It calculates various facial angles and ratios, which can be useful for applications like medical diagnosis, cosmetic surgery planning, and facial anomaly detection. <a href="https://github.com/sujims22/Facial-Landmark-Analysis" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></p>
 											</div>
+										</div><div class="grid-item">
+											<a href="https://public.tableau.com/app/profile/sujitha.ravichandran/vizzes" target="_blank">
+												<img src="images/tableau.png" alt="Tableau Public Profile">
+											</a>
+											<div class="title">My Tableau Public Profile</div>
+											<div class="content">
+												<p>Explore my Tableau Public profile showcasing a range of data visualizations and dashboards that highlight my skills in data analysis and storytelling. <a href="your-tableau-public-profile-link" class="icon brands fa-tableau" target="_blank"><span class="label">Tableau Public</span></a></p>
+											</div>
 										</div>
+
+
 								
 										<!-- Project 4 -->
 										<div class="grid-item">
@@ -406,17 +416,6 @@
 												<p>This project involves customizing and enhancing a website template to create a unique and personalized web presence. It includes modifying the HTML5 UP 'Read Only' template to fit personal branding, incorporating responsive design, and adding custom features. <a href="https://github.com/sujims22/sujitharavichandran" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></p>
 											</div>
 										</div>
-								
-										<!-- Project 5 -->
-										<div class="grid-item">
-											<a href="your-tableau-public-profile-link" target="_blank">
-												<img src="images/tableau-profile-image.jpg" alt="Tableau Public Profile">
-											</a>
-											<div class="title">My Tableau Public Profile</div>
-											<div class="content">
-												<p>Explore my Tableau Public profile showcasing a range of data visualizations and dashboards that highlight my skills in data analysis and storytelling. <a href="your-tableau-public-profile-link" class="icon brands fa-tableau" target="_blank"><span class="label">Tableau Public</span></a></p>
-											</div>
-										</div>
 									</div>
 									
 								</div>
@@ -424,11 +423,63 @@
 
 							<!-- Rest of your HTML content -->
 
-							</body>
-							</html>
+
+
+ 
+
+
+    <style>
+        .education-container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: transparent;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .education-list {
+            display: flex; /* Enable Flexbox */
+            flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+            justify-content: space-around; /* Space items evenly */
+            list-style: none;
+            padding: 0;
+        }
+
+        .education-item {
+            display: flex;
+            flex-direction: column; /* Stack elements vertically */
+            align-items: center; /* Center-align items */
+            margin-bottom: 20px;
+            flex-basis: 30%; /* Adjust this value as needed */
+        }
+		
+		
+
+        .education-logo {
+			width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 10px;
+            border-radius: 50%; /* Makes the image circular */
+            overflow: hidden; /* Ensures no overflow outside the circular boundary */
+        }
+
+        .education-details {
+            text-align: center; /* Center-align text content */
+        }
+
+        .education-details h4, .education-details p {
+            margin: 10px 0; /* Adjust spacing as needed */
+        }
+
+        /* Additional styling */
+    </style>
+
+
 
 							<section id="four">
-								<div class="container">
+								<div class="education-container">
 									<header class="major">
 										<h2>Education</h2>
 									</header>
@@ -438,7 +489,9 @@
 											<img src="images/190308_Rice_Mechanical_Brand_Standards_Logos-1.png" alt="Rice University Image" class="education-logo"/>
 											<div class="education-details">
 												<h4>Visiting Graduate - Data Science</h4>
-												<p>RICE UNIVERSITY (Aug 2023 - Dec 2023)</p>
+												<p>RICE UNIVERSITY</p>
+												<p>(Aug 2023 - Dec 2023)</p>
+												<p><strong>GPA:</strong> 4/4  <a href="Documents /Transcript_UH.pdf" class="button primary" target="_blank" style="margin-left: 10px;"><i class="fa fa-file-alt"></i></a></p>
 												<p><strong>Coursework:</strong> Data Science Capstone Project</p>
 											</div>
 										</div>
@@ -446,8 +499,9 @@
 											<img src="images/UH.jpeg" alt="University of Houston Image" class="education-logo"/>
 											<div class="education-details">
 												<h4>Master of Science in Engineering Data Science</h4>
-												<p>UNIVERSITY OF HOUSTON (Aug 2022 - May 2024)</p>
-												<p><strong>GPA:</strong> 3.95/4  <a href="Documents /Transcript_UH.pdf" class="button primary" target="_blank" style="margin-left: 10px;">Transcript</a></p>
+												<p>UNIVERSITY OF HOUSTON</p>
+												<p>(Aug 2022 - May 2024)</p>
+												<p><strong>GPA:</strong> 3.95/4  <a href="Documents /Transcript_UH.pdf" class="button primary" target="_blank" style="margin-left: 10px;"><i class="fa fa-file-alt"></i></a></p>
 												<p><strong>Coursework:</strong> Introduction to Data Science, Introduction to Machine Learning, Probability and Statistics, Text Mining, Database Management System, Cybersecurity Data Analytics, Deep Learning, Information Visualization</p>
 											</div>
 										</div>
@@ -456,9 +510,10 @@
 										<div class="education-item">
 											<img src="images/National_Institute_of_Technology_Trichy_Logo.png" alt="NIT Tiruchirappalli Image" class="education-logo"/>
 											<div class="education-details">
-												<h4>Bachelor of Technology in Materials Science and Minor in Computer Science</h4>
-												<p>NATIONAL INSTITUTE OF TECHNOLOGY TIRUCHIRAPPALLI (Aug 2018 - Aug 2022)</p>
-												<p><strong>GPA:</strong> 3.57/4  <a href="Documents /Transcript_NITT.pdf" class="button primary" target="_blank" style="margin-left: 10px;">Transcript</a></p>
+												<h4>B.Tech in Materials Science & Computer Science Minor</h4>
+												<p>NIT TIRUCHIRAPPALLI</p>
+												<p>(Aug 2018 - Aug 2022)</p>
+												<p><strong>GPA:</strong> 3.57/4  <a href="Documents /Transcript_UH.pdf" class="button primary" target="_blank" style="margin-left: 10px;"><i class="fa fa-file-alt"></i></a></p>
 												<p><strong>Coursework:</strong> Data Structures and Algorithms, Database Management Systems, Network Security, Operating Systems, Data Communication and Networks, Big Data Analytics</p>
 											</div>
 										</div>
@@ -466,67 +521,205 @@
 									</div>
 								</div>
 							</section>
-							
+
+<style>						
+	#publications-container .accordion {
+		background: #f9f9f9;
+		border-radius: 5px;
+		box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	}
+
+	#publications-container .accordion-item {
+		border-top: 1px solid #dddddd;
+	}
+
+	#publications-container .accordion-button {
+		background-color: #ffffff;
+		color: #333;
+		cursor: pointer;
+		padding: 18px;
+		width: 100%;
+		text-align: left;
+		border: none;
+		outline: none;
+		transition: background-color 0.2s ease-in-out;
+		border-bottom: 1px solid #dddddd;
+	}
+
+	#publications-container .accordion-button:hover, 
+	#publications-container .accordion-button.active {
+		background-color: #eeeeee;
+	}
+
+	#publications-container .accordion-content {
+		background-color: white;
+		overflow: hidden;
+		transition: max-height 0.2s ease-in-out;
+		padding: 0 18px;
+		max-height: 0;
+	}
+
+	#publications-container .accordion-content p {
+		margin: 15px 0;
+	}
+</style>	
 
 
-							<section id="five">
+							<section id="publications-container">
 								<div class="container">
 									<header class="major">
 										<h2>Publications</h2>
 									</header>
-									<hr />
-									<!-- Publication 1 -->
-									<header>
-										<h4>1. HALO: Communication-aware Heterogeneous 2.5D System for Energy-efficient LLM Execution at Edge</h4>
-										<p>Abhi Jaiswal, Sharin Shahana K C, Sujitha Ravichandran, Adarsh K, Bharat Bhat, Biresh Kumar Joardar, Sumit K. Mandal</p>
-										<p>IEEE Transactions on Circuits and Systems, Sep 2023 (under review)</p>
-									</header>
-									<hr />
-							
-									<!-- Publication 2 -->
-									<header>
-										<h4>2. ClarifyNet: A high-pass and low-pass filtering based CNN for single image dehazing</h4>
-										<p>Onkar Susladkar, Gayatri Deshmukh, Subhrajit Nag, Ananya Mantravadi, Dhruv Makwana, Sujitha Ravichandran, Sai Chandra Teja R, Gajanan H Chavhan, C Krishna Mohan, Sparsh Mittal</p>
-										<div style="display: flex; align-items: center;">
-											<p style="margin: 0;">Journal of Systems Architecture, Elsevier, November 2022</p>
-											<a href="https://doi.org/10.1016/j.sysarc.2022.102736" class="button primary" target="_blank" style="margin-left: 10px;">Paper</a>
+									<div class="accordion">
+										<!-- Publication 1 -->
+										<div class="accordion-item">
+											<button class="accordion-button"><h4>1. HALO: Communication-aware Heterogeneous 2.5D System for Energy-efficient LLM Execution at Edge</h4></button>
+											<div class="accordion-content">
+												<p>Abhi Jaiswal, Sharin Shahana K C, Sujitha Ravichandran, Adarsh K, Bharat Bhat, Biresh Kumar Joardar, Sumit K. Mandal</p>
+												<p>IEEE Transactions on Circuits and Systems, Sep 2023 (under review)</p>
+											</div>
 										</div>
-									</header>
-									<hr />
-							
-									<!-- Publication 3 -->
-									<header>
-										<h4>3. ExtractMetOnto: A Strategic domain Ontology modeling approach in the field of Extractive Metallurgy</h4>
-										<p>Sujitha Ravichandran and G. Deepak</p>
-										<div style="display: flex; align-items: center;">
-											<p style="margin: 0;">2022 International Conference on Computer Communication and Informatics (ICCCI), Coimbatore, India, 2022, pp. 01-05</p>
-											<a href="https://doi.org/10.1109/ICCCI54379.2022.9740850" class="button primary" target="_blank" style="margin-left: 10px;">Paper</a>
+										<!-- Publication 2 -->
+										<div class="accordion-item">
+											<button class="accordion-button"><h4>2. ClarifyNet: A high-pass and low-pass filtering based CNN for single image dehazing</h4></button>
+											<div class="accordion-content">
+												<p>Onkar Susladkar, Gayatri Deshmukh, Subhrajit Nag, Ananya Mantravadi, Dhruv Makwana, Sujitha Ravichandran, Sai Chandra Teja R, Gajanan H Chavhan, C Krishna Mohan, Sparsh Mittal</p>
+												<div style="display: flex; align-items: center;">
+													<p style="margin: 0;">Journal of Systems Architecture, Elsevier, November 2022 <a href="https://doi.org/10.1016/j.sysarc.2022.102736" class="button primary" target="_blank" style="margin-left: 10px;"><i class="fa fa-file-alt"></i></a></p>
+													
+												</div>
+												
+											</div>
 										</div>
-									</header>
-									<hr />
-								</div>	
+										<!-- Publication 3 -->
+										<div class="accordion-item">
+											<button class="accordion-button"><h4>3. ExtractMetOnto: A Strategic domain Ontology modeling approach in the field of Extractive Metallurgy </h4></button>
+											<div class="accordion-content">
+												<p>Sujitha Ravichandran and G. Deepak</p>
+												<div style="display: flex; align-items: center;">
+													<p style="margin: 0;">2022 International Conference on Computer Communication and Informatics (ICCCI), Coimbatore, India, 2022, pp. 01-05 <a href="https://doi.org/10.1109/ICCCI54379.2022.9740850" class="button primary" target="_blank" style="margin-left: 10px;"><i class="fa fa-file-alt"></i></a></p>
+													
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</section>
-							
-							
 
-							<!-- Four -->
-							<section id="six">
+
+							<script>
+								document.querySelectorAll("#publications-container .accordion-button").forEach(button => {
+									button.addEventListener("click", () => {
+										const accordionContent = button.nextElementSibling;
+							
+										button.classList.toggle("active");
+							
+										if (button.classList.contains("active")) {
+											accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
+										} else {
+											accordionContent.style.maxHeight = 0;
+										}
+									});
+								});
+							</script>
+<style>
+	#contact-container .container {
+		text-align: left;
+	}
+
+	#contact-container .contact-cards {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	#contact-container .card {
+		margin: 10px;
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
+	}
+
+	#contact-container .card-link {
+		text-decoration: none;
+		
+	}
+
+	#contact-container .card-icon {
+		font-size: 24px;
+		margin-bottom: 10px;
+		/* Add more styling for icons here if needed */
+	}
+
+	#contact-container .card:hover {
+		transform: translateY(-5px);
+		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+	}
+	#contact-container .card-image {
+    height: 40px; /* Adjust the height as needed */
+    width: 40px; /* Adjust the width as needed */
+    object-fit: contain; /* Keeps the aspect ratio of the image */
+    margin-bottom: 10px;
+}
+
+</style>
+
+							<section id="contact-container">
 								<div class="container">
 									<header class="major">
 										<h2>Contact</h2>
 									</header>
-									<div>
-										<ul class="feature-icons">
-											<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/sujitharavichandran/" target="_blank"> LinkedIn</a></li>
-											<li class="icon solid fa-envelope"><a href="mailto:sravich8@cougarnet.uh.edu" target="_blank"> Email</a></li>
-											<li class="icon brands fa-github"><a href="https://github.com/sujims22" target="_blank"> Github</a></li>
-											<li class="icon brands fa-twitter"><a href="https://twitter.com/sujitharav78067" target="_blank"> Twitter</a></li>
-											<li class="icon brands fa-instagram"><a href="https://www.instagram.com/sujitha._.ravichandran/" target="_blank"> Instagram</a></li>
-											<li class="icon solid fa-graduation-cap"><a href="https://scholar.google.com/citations?user=g952c1MAAAAJ&hl=en" target="_blank"> Google Scholar</a></li>
-										</ul>
+									<div class="contact-cards">
+										<!-- LinkedIn -->
+										<div class="card">
+											<a href="https://www.linkedin.com/in/sujitharavichandran/" target="_blank" class="card-link">
+												<img src="images/LinkedIn.png" alt="LinkedIn" class="card-image">
+											</a>
+										</div>
+										<!-- Email -->
+										<div class="card">
+											<a href="mailto:sravich8@cougarnet.uh.edu" target="_blank" class="card-link">
+												<img src="images/icons8-mail-48.png" alt="LinkedIn" class="card-image">
+											</a>
+										</div>
+										<!-- GitHub -->
+										<div class="card">
+											<a href="https://github.com/sujims22" target="_blank" class="card-link">
+												<img src="images/icons8-github-94.png" alt="LinkedIn" class="card-image">
+											</a>
+										</div>
+										<!-- Twitter -->
+										<div class="card">
+											<a href="https://twitter.com/sujitharav78067" target="_blank" class="card-link">
+												<img src="images/icons8-twitter-48.png" alt="LinkedIn" class="card-image">
+											</a>
+										</div>
+										<!-- Instagram -->
+										<div class="card">
+											<a href="https://www.instagram.com/sujitha._.ravichandran/" target="_blank" class="card-link">
+												<img src="images/icons8-instagram-48.png" alt="LinkedIn" class="card-image">
+											</a>
+										</div>
+										<!-- Google Scholar -->
+										<div class="card">
+											<a href="https://scholar.google.com/citations?user=g952c1MAAAAJ&hl=en" target="_blank" class="card-link">
+												<img src="images/icons8-google-scholar-48.png" alt="LinkedIn" class="card-image">
+											</a>
+										</div>
 									</div>
 								</div>
 							</section>
+
+							<script>
+								document.querySelectorAll("#contact-container .card").forEach(card => {
+									card.addEventListener("click", () => {
+										console.log("Contact method clicked:", card.textContent.trim());
+									});
+								});
+							</script>
+							
+						
 						
 						
 
