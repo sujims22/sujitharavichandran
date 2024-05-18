@@ -2847,6 +2847,10 @@ input, select, textarea {
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
+			
+		}
+		#header > nav {
+			float: left;
 		}
 
 			#header > nav ul {
